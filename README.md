@@ -1,3 +1,25 @@
+PEOJEYE AİT ÖRNEK EKRAN GÖRÜNTÜLERİ --> /public/myproject dosyasında verilmiştir.
+
+Projede Yapılanlar :
+
+1- İlk 10 koltuk doludur seçilemez.
+
+2- Dolu koltuklar için verdiğimiz API linkinden isim soyisim verisi çekilip hover durumunda tooltip olarak gösterilmelidir. (https://jsonplaceholder.typicode.com/users)
+
+3- En fazla 3 yolcu için koltuk seçimi yapılmalıdır. Daha fazla seçildiğinde kırmızı uyarı çıkmaktadır.
+
+4- Her bir koltuk seçimi yapıldığında ücreti anlık olarak yan kısımda hesaplanmalıdır. (Her bir koltuk 1.000 TL olarak hesaplanmalıdır.)
+
+5- Dolu koltuklar seçilemez css lerle desteklenmiştir.
+
+6- Sayfa yenilendiğinde koltuk seçimleri sabit kalmıştır.
+
+7- İlk koltuk seçiminden sonra 30 saniye tepkisiz kalınırsa “Eğer 20 saniye boyunca devam tuşuna basmassanız seçili verileriniz silinecektir” uyarısı verilmiştir halen bir işlem yoksa sayfayı yenilenip seçimler sıfırlanır. 30 saniye boyunca mouse un o sayfada hareket etmemesi gerekmektedir.
+
+8- Input alanları boş geçilmeyerek form kontrolü yapılmalıdır.
+
+9- Son aşamada işlemleri tamamla butonuna tıklanıldığında rezervasyon işleminin başarılı olduğuna dair bir uyarı mesajı verdirilmelidir.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
@@ -17,24 +39,3 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
